@@ -1,5 +1,5 @@
 [template.environment]
-  MEDUSA_BACKEND_URL="URL of your Medusa Server"
+  MEDUSA_BACKEND_URL="http://awsmedusaserver-env.eba-bhsskghv.us-east-1.elasticbeanstalk.com"
 
 [build]
   publish = "public/"
