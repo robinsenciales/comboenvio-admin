@@ -9,6 +9,9 @@
     "postcss": "^8.4.5",
     "@types/react": "^18.0.21"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "@hookform/error-message": "^2.0.0",
     "@medusajs/medusa": "^1.7.5",
@@ -103,7 +106,7 @@
     "develop": "npm run dev",
     "check": "tsc",
     "build": "vite build",
-    "preview": "vite preview --port 7000",
+    "preview": "vite preview --port 8080",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "start": "npm run dev",
     "serve": "npm run preview",
